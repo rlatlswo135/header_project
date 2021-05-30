@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_logobox {
+  display: flex;
+}
+
+.header_menu {
+  display: flex;
+  list-style: none;
+}

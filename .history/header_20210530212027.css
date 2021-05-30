@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --background-color: rgb(69, 69, 156);
+  --text-color: gold;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(69, 69, 156);
+  height: 4em;
+  padding: 10px 15px;
+}
+
+.header_logobox {
+  display: flex;
+}
+.header_menu {
+  display: flex;
+  list-style: none;
+  font-size: 3rem;
+}
+li {
+  margin: 20px;
+}
+.header_iconbox {
+  display: flex;
+}
